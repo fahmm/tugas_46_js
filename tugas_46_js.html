@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p>Click Untuk Merubah Warna.</p>
+
+<button onclick="myFunction()">Ubah Warna</button>
+
+<script type="text/javascript">
+	function myFunction(){
+		
+		var x = prompt("Ketikan Warna yang kamu inginkan (english)");
+		if (x=="yellow") {
+		var y = document.getElementsByTagName('body');
+		y.item(0).style.background = 'yellow';
+		}else if (x=="green"){
+		var y = document.getElementsByTagName('body');
+		y.item(0).style.background = 'green';	
+		}else if (x=="black"){
+		var y = document.getElementsByTagName('body');
+		y.item(0).style.background = 'black';	
+		}else if (x=="red"){
+		var y = document.getElementsByTagName('body');
+		y.item(0).style.background = 'red';	
+		}else if (x=="blue"){
+		var y = document.getElementsByTagName('body');
+		y.item(0).style.background = 'blue';	
+		}else{
+		var y = document.getElementsByTagName('body');
+		y.item(0).style.background = 'white'	
+		}
+
+	}	
+</script>
+</body>
+</html>
